@@ -1,0 +1,39 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    /* background: black; */
+}
+
+.section-1 {
+    /* grid: 25%; */
+    background-color: #1f2937;
+    padding: 30px 60px 30px 60px;
+}
+
+.content-wrapper {
+
+}
+
+.nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.container  {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
