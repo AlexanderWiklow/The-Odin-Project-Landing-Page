@@ -23,10 +23,6 @@ body {
     height: 40rem;
 }
 
-.content-wrapper {
-
-}
-
 .nav {
     color: white;
     display: flex;
@@ -36,7 +32,10 @@ body {
 }
 
 .links a {
+    color: white;
     margin-left: 2rem;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .container  {
@@ -60,7 +59,7 @@ body {
     font-size: 1.8rem;
 }
 
-button {
+.sign-up-button {
     margin-top: 1rem;
     font-weight: bold;
     font-size: 16px;
@@ -116,4 +115,84 @@ button {
 .text   {
     width: 10rem;
 }
+
+/*===== THIRD SECTION =======*/
+
+
+.section-3 {
+    /* grid: 25%; */
+    background-color: lightgray;
+    padding: 20px 180px 50px 180px;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quote-text {
+    font-size: 3.6rem;
+    font-style: italic;
+}
+
+.quote-name {
+    color: black;
+    display: flex;
+    float: right;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/*==== SECTION 4 =====*/
+
+
+.section-4 {
+    background-color: white;
+    padding: 20px 180px 50px 180px;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 70rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+}
+
+.text-4 p {
+    color: lightgray;
+}
+
+.last-sign-up-button {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: #3882f6;
+    width: 8.3rem;
+    height: 2.8rem;
+    border-radius: 5px;
+}
+
+footer {
+    color: lightgray;
+    font-size: 1.6rem;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+
+
 
